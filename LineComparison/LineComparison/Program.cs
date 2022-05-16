@@ -11,3 +11,4 @@ else
 {
     Console.WriteLine("Length1- {0} and Length2 - {1} are not equal", length1, length2);
 }
+linecomparison.CompareLength(length1, length2);

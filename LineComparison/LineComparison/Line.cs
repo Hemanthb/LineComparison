@@ -18,5 +18,20 @@ namespace LineComparison
         {
             return length1 == length2;
         }
+        public void CompareLength(double length1, double length2)
+        {
+            if (length1 == length2)
+            {
+                Console.WriteLine("Length1- {0} and Length2 - {1} are equal", length1, length2);
+            }
+            else if (length1 < length2)
+            {
+                System.Console.WriteLine("Length1- {0} is less than Length2 - {1}", length1, length2);
+            }
+            else
+            {
+                Console.WriteLine("Length1- {0} is greater than Length2 - {1}", length1, length2);
+            }
+        }
     }
 }
